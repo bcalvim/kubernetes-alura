@@ -9,8 +9,10 @@
 1. kubectl annotate deploy <pod a ser anotado> kubernets.io/change-cause="<causa>"
 1. kubectl rollout undo deployment
 1. kubectl get pv
+1. kubectl describe pod <pod>
 
 
 # Conceitos
 
-1. O cusrso utiliza o Google Cloud 
+1. O curso utiliza o Google Cloud 
+1. Stateful Set - Um pod que estiver dentro de um StatefulSet que falhar e/ou for reiniciado manterá o mesmo arquivo.
